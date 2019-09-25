@@ -15,6 +15,6 @@ export const StopWatch = styled.div`
 `;
 
 export const ButtonArea = styled.div`
-  margin: 20px 10% 20px 0;
+  padding: 20px;
   text-align: right;
 `;

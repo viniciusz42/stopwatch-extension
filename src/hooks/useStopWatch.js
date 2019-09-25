@@ -1,7 +1,6 @@
 /* @flow */
 /* global chrome */
-/* eslint-disable no-return-await */
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react-hooks/exhaustive-deps */
 import moment from 'moment';
 import { useState, useEffect, useRef } from 'react';
 import { isEmpty } from 'lodash';
@@ -35,10 +34,10 @@ export default function useStopWatch(): StopWatch {
   }
 
   async function storage(): Storage {
-    return await chrome.storage.local.get(['clockState', 'startTime', 'runs']);
+    return chrome.storage.local.get(['clockState', 'startTime', 'runs']);
   }
 
-  function sumRuns(durations: Array): moment {
+  function sumRuns(durations: []): moment {
     const totalDurations = durations
       .slice(1)
       .reduce((prev, cur) => moment.duration(cur).add(prev), moment.duration(durations[0]));

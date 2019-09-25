@@ -5,7 +5,6 @@ import { Button, StartStop, TimeMarker, RunList } from 'components';
 import { useStopWatch } from 'hooks';
 import { isEmpty } from 'lodash';
 import { Container, StopWatch, ButtonArea } from './styled';
-import * as serviceWorker from './serviceWorker';
 
 function Extension() {
   const { toggle, reset, timer, isRunning, total, laps } = useStopWatch();
@@ -31,5 +30,3 @@ function Extension() {
 }
 
 ReactDOM.render(<Extension />, document.getElementById('root'));
-
-serviceWorker.unregister();
