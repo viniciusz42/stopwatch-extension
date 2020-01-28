@@ -6,4 +6,4 @@ This extension is intended to provide an alternative to pomodoro in the simplest
 
 [You can install it on Chrome WebStore](https://chrome.google.com/webstore/detail/stopwatch-extension/mompiecabddeaogfabickfokcianmckn)
 
-![](https://github.com/vinicius-dev/stopwatch-extension/blob/master/demo.gif)
+![](https://github.com/vinicius-dev/stopwatch-extension/blob/master/promo/demo.gif)
