@@ -1,0 +1,20 @@
+{
+  "name": "Stopwatch Extension",
+  "version": "1.1.1",
+  "description": "Stopwatch extension for Chrome",
+  "manifest_version": 2,
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/stopwatch-16.png",
+      "32": "icons/stopwatch-32.png",
+      "48": "icons/stopwatch-48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/stopwatch-16.png",
+    "32": "icons/stopwatch-32.png",
+    "48": "icons/stopwatch-48.png"
+  }
+}
