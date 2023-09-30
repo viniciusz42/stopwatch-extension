@@ -1,9 +1,9 @@
 # Stopwatch Chrome Extension
 
-[![Build Status](https://travis-ci.com/vinicius-dev/stopwatch-extension.svg?branch=master)](https://travis-ci.com/viniciusz42/stopwatch-extension)
-
-Stopwatch extension that is dead-simple to use.
-
-[![](https://github.com/vinicius-dev/stopwatch-extension/blob/master/promo/store-banner.png)](https://chrome.google.com/webstore/detail/stopwatch-extension/mompiecabddeaogfabickfokcianmckn)
+This is the code of a dead-simple stowatch extension. For those that enjoy simplicity.
 
 ![](https://github.com/vinicius-dev/stopwatch-extension/blob/master/promo/demo.gif)
+
+But if you prefer a more premium and complete solution that can store your sessions into a database, you can download the Spatio Extension:
+
+[![](https://github.com/vinicius-dev/stopwatch-extension/blob/master/promo/store-banner.png)](https://chrome.google.com/webstore/detail/stopwatch-extension/mompiecabddeaogfabickfokcianmckn)
